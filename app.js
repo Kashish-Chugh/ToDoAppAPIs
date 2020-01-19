@@ -18,7 +18,7 @@ routes(app);
 
 app.listen(port);
 
-/*app.use(function(req,res){
+/*app.use((req,res) => {
     res.status(404).send({url: req.originalUrl + ' not found'})
 });*/
 
